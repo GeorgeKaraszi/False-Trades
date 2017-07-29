@@ -4,6 +4,12 @@
 /deps
 /*.ez
 
+.env.dev
+.env.test
+
+/tmp
+.vscode
+
 # Generated on crash by the VM
 erl_crash.dump
 
