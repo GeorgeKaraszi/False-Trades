@@ -13,7 +13,7 @@ config :logger, level: :warn
 config :false_trades, FalseTrades.Repo,
   adapter: Ecto.Adapters.Postgres,
   username: "postgres",
-  password: "postgres",
+  password: "password",
   database: "false_trades_test",
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox

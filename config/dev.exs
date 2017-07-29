@@ -52,7 +52,7 @@ config :phoenix, :stacktrace_depth, 20
 config :false_trades, FalseTrades.Repo,
   adapter: Ecto.Adapters.Postgres,
   username: "postgres",
-  password: "postgres",
+  password: "password",
   database: "false_trades_dev",
   hostname: "localhost",
   pool_size: 10
